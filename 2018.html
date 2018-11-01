@@ -1,86 +1,168 @@
 <!doctype html>
-<html class="no-js" lang="en">
-    <head>
-        <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Foundation | Welcome</title>
-        <link rel="stylesheet" href="css/foundation.css"/>
-        <link rel="stylesheet" href="style.css"/>
-        <script src="js/vendor/modernizr.js"></script>
-    </head>
-    <body style="min-width:500px">
-        <!-- Header and Nav -->
-        <div class="grid-container">
-            <div class="grid-x" style="display: grid; grid-template-columns: 2fr 1fr; grid-template-rows: 160px; grid-template-areas: 'title text';">
-                <div>
-                    <span style="font-size: 28px; color: #5555bb;">The 3rd Asian Workshop on Reinforcement Learning (AWRL'18)</span><br>
-                    <span style="font-size: 14px; color: 0;">Nov. 14, Beijing Jiaotong University, Beijing, China</span>
-                </div>
-                <div style="text-align: right">
-                    <span><img src="http://www.acml-conf.org/2018/ACML%202018%20Main_Home_files/homelogo.png" style="max-width: 230px"></span>
-                </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-                <!-- Main Content Section -->
-                <!-- This has been source ordered to come first in the markup (and on small devices) but to be to the right of the nav on larger screens -->
-                <div class="cell small-9 medium-order-2 large-order-1">
-                    <p><p>The Asian Workshop on Reinforcement Learning (AWRL) focuses on both theoretical foundations, models, algorithms, and practical applications. We intend to make this an exciting event for researchers and practitioners in RL worldwide as a forum for the discussion of open problems, future research directions and application domains of RL. </p><p>AWRL 2018 (in conjunction with <a href="http://www.acml-conf.org/2018/" target="_blank">ACML 2018</a>) will consist of keynote talks, invited paper presentations, and discussion sessions spread over a one-day period.</p></p>
-                    <h3><a name="invited"></a>Invited Speakers</h3>
-                    <p>to be announced<br><br></p>
-                    <h3><a name="program"></a>Program</h3>
-                    <p>to be announced</p>
-                    <h3><a name="organize"></a>Organization Committee</h3>
-                    <p><a href="http://weng.fr/" target="_blank">Paul Weng</a>, University of Michigan-Shanghai Jiao Tong University Joint Institute, China<br> <a href="http://cs.nju.edu.cn/yuy/" target="_blank">Yang Yu</a> Nanjing University, China <br> <a href="http://www.escience.cn/people/zzzhang/" target="_blank">Zongzhang Zhang</a>, Soochow University, China<br><a href="https://www.microsoft.com/en-us/research/people/lizo/" target="_blank">Li Zhao</a>, Microsoft Research Asia, China</p>
-                    <h3><a name="sponsor"></a>Sponsors</h3>
-                    <p style="text-align:center"><img src="http://lamda.nju.edu.cn/logo/Normal%20(179x85)/normal.png" width="150"><br>
-                        LAMDA Group, National Key Laboratory for Novel Software Technology, Nanjing University</p>
-                    <p></p>
-                </div>
-                <div class="cell small-3 medium-order-1 large-order-2">
-                    <ul class="menu vertical">
-                        <li>
-</li>
-                        <li>
-</li>
-                        <li>
-                            <a href="#invited" target="_self">Invited Speakers</a>
-                        </li>
-                        <li>
-                            <a href="#program" target="_self">Program</a>
-                        </li>
-                        <li>
-                            <a href="#organize" target="_self">Organization</a>
-                        </li>
-                        <li>
-                            <a href="#sponsor" target="_self">Sponsors</a>
-                        </li>
-                        <li>
-                            <a href="http://awrl.cc">About AWRL</a>
-                        </li>
-                    </ul>
-                    <p></p>
-                </div>
-                <!-- Nav Sidebar -->
-                <!-- This is source ordered to be pulled to the left on larger screens -->
-            </div>
-        </div>
-        <!-- End Header and Nav -->
-        <!-- Footer -->
-        <footer class="grid-container">
-            <div class="grid-x">
-                <div class="large-12 cell">
-                    <hr/>
-                    <div class="grid-x">
-                        <div class="large-6 cell">
-</div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <script src="js/vendor/jquery.js"></script>
-        <script src="js/foundation.min.js"></script>
-        <script>
-          $(document).foundation();
-        </script>
-    </body>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>AWRL 2018</title>
+<style>
+body {
+	font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+	font-size: 14px;
+	text-align: left;
+}
+h3 {
+	font-size: 18px;
+	color: #5555bb;
+	margin-top:25px;
+}
+a {
+    color: #1779ba;
+    text-decoration: none;
+    cursor: pointer;
+}
+.small{
+	font-size: 11px;
+	color: #444;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+<table cellpadding="0" cellspacing="0" border="0" width="800" align="center">
+  <tr>
+    <td align="left" width="700"> <span style="font-size:24px; color:#5555bb">The 3rd Asian Workshop on Reinforcement Learning (AWRL'18)</span><br/>
+      Nov. 14, Beijing Jiaotong University, Beijing, China </td>
+    <td align= "right"><a href="http://www.acml-conf.org/2018"><img src="http://www.acml-conf.org/2018/ACML%202018%20Main_Home_files/homelogo.png" width="150px"></a></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><br/><hr size="1">
+      <a href="#invited" target="_self">Invited Speakers</a> | 
+      <a href="#program" target="_self">Program</a> |
+      <a href="#organize" target="_self">Organization</a> |
+      <a href="#sponsor" target="_self">Sponsors</a> |
+      <a href="http://awrl.cc">About AWRL</a> <br/><hr size="1">
+      <br/></td>
+  </tr>
+  <tr>
+    <td colspan="2" width="800"><p>The Asian Workshop on Reinforcement Learning (AWRL) focuses on both theoretical foundations, models, algorithms, and practical applications. We intend to make this an exciting event for researchers and practitioners in RL worldwide as a forum for the discussion of open problems, future research directions and application domains of RL. </p>
+      <p>AWRL 2018 (in conjunction with <a href="http://www.acml-conf.org/2018/" target="_blank">ACML 2018</a>) will consist of keynote talks, invited paper presentations, and discussion sessions spread over a one-day period.</p>
+      <h3><a name="invited"></a>Invited Speakers (sorted in alphabetical order)</h3>
+      <strong>Lucian Busoniu</strong>, Technical University of Cluj-Napoca, Romania<br>
+      <div class="small">Lucian Busoniu received his Ph.D. degree cum laude from the Delft University of Technology, the Netherlands, in 2009. He is a professor with the Department of Automation at the Technical University of Cluj-Napoca, where he leads the group on Robotics and Nonlinear Control. He has previously held research positions in the Netherlands and in France. His research interests include nonlinear optimal control using artificial intelligence techniques, reinforcement learning and approximate dynamic programming, robotics, and multiagent systems. His more than 70 research publications include among others several influential review articles and a book on reinforcement learning. </div>
+      <strong>Shane Shixiang  Gu</strong>, Google Brain<br/>
+      <div class="small">Shane Gu is a Research Scientist at Google Brain, where he mainly works on problems in deep learning, reinforcement learning, robotics, and probabilistic machine learning. His recent research focuses on sample-efficient RL methods that could scale to solve difficult continuous control problems in the real-world, which have been covered by Google Research Blogpost and MIT Technology Review. He completed his PhD in Machine Learning at the University of Cambridge and the Max Planck Institute for Intelligent Systems in Tübingen, where he was co-supervised by Richard E. Turner, Zoubin Ghahramani, and Bernhard Schölkopf. During his PhD, he also collaborated closely with Sergey Levine at UC Berkeley/Google Brain and Timothy Lillicrap at DeepMind. He holds a B.ASc. in Engineering Science from the University of Toronto, where he did his thesis with Geoffrey Hinton in distributed training of neural networks using evolutionary algorithms.      </div>
+      <strong>Minlie Huang</strong>, Tsinghua University, China<br>
+      <div class="small">Dr. Minlie Huang now is an associate professor, deputy director of the AI Lab. of Dept. of Computer Science and Technology, Tsinghua University. He was selected by “Beijing Century Young Elite Program” in 2013, and won Hanvon Youngth Innovation Award in 2018. He won IJCAI-ECAI 2018 distinguished paper, NLPCC 2015 best paper, and CCL 2018 best demo award. He has two papers voted as Top 15 NLP papers in 2016 and Top 10 NLP papers in 2017 by PaperWeekly respectively. His work on Emotional Chatting Machine was reported by MIT Technology Review, the Guardian, NVIDIA, Cankao Xiaoxi, Xinhua News Agency, etc. He has published 60+ papers on top conferences such as ACL, AAAI, IJCAI, EMNLP, KDD, and highly-impacted journals like TOIS, Bioinformatics, JAMIA etc.  He served as area chairs for ACL 2016, EMNLP 2014, EMNLP 2011, and IJCNLP 2017, and Senior PC of IJCAI 2017/IJCAI 2018/AAAI 2019, and reviewers for ACL, IJCAI, AAAI, EACL, COLING, EMNLP, NAACL, and reviewers for journals such as TOIS, TKDE, TPAMI, etc. As principle investigator, he had established collaborations with industrial companies such as Samsung, Microsoft, HP, Google, Sogou, Tencent, Alibaba, etc. His homepage is at: <a href="http://coai.cs.tsinghua.edu.cn/hml/" target="_blank">http://coai.cs.tsinghua.edu.cn/hml/</a></div>
+      <strong>Gergely Neu</strong>, Pompeu Fabra
+University, Spain<br>
+      <div class="small">Gergely Neu is a research assistant professor at the Pompeu Fabra
+University, Barcelona, Spain. He has previously worked with the SequeL
+team of INRIA Lille, France and the RLAI group at the University of
+Alberta, Edmonton, Canada. He obtained his PhD degree in 2013 from the
+Technical University of Budapest, where his advisors were Andras
+Gyorgy, Csaba Szepesvari and Laszlo Gyorfi. His main research
+interests are in machine learning theory, including reinforcement
+learning and online learning with limited feedback and/or very large
+action sets.</div>
+      <strong>Matteo Pirotta</strong>, Facebook AI Research (FAIR), France<br/>
+      <div class="small">Matteo Pirotta is a research scientist at Facebook AI Research (FAIR) lab in Paris. Previously, he was a postdoc at Inria in the SequeL team. He has been mainly working on the exploration-exploitation dilemma in reinforcement learning since he joined the SequeL team. He received his PhD in computer science from the Politecnico di Milano (Italy) in 2016.  For his doctoral thesis in reinforcement learning, he received the  Dimitris N. Chorafas Foundation Award and an honorable mention for the EurAI Distinguished Dissertation Award.</div>
+
+      <h3><a name="program"></a>Program      </h3>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="120px" valign="top" bgcolor="#CCCCCC">8:50-9:00</td>
+          <td bgcolor="#CCCCCC">Opening</td>
+        </tr>
+        <tr>
+          <td valign="top">9:00-9:40</td>
+          <td>Invited talk by <strong>Lucian Busoniu</strong><br>
+          Forward-search optimistic planning with convergence guarantees in continuous-action MDPs<br/>
+          <div class="small">We discuss an optimistic planning method to run a forward search for continuous-action sequences in deterministic MDPs. The method iteratively refines the most promising adaptive-horizon hyperboxes in the space of infinite-horizon action sequences. Under Lipschitz conditions on the dynamics and rewards, we obtain a convergence rate to the optimal solution as the simulation budget increases. Real-time, receding-horizon control results illustrate the method in practice.</div>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">9:40-10:00</td>
+          <td>Paper talk 1</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#CCCCCC">10:00-10:20</td>
+          <td bgcolor="#CCCCCC">Coffee break</td>
+        </tr>
+        <tr>
+          <td valign="top">10:20-11:00</td>
+          <td>Invited talk by <strong>Shane Shixiang  Gu</strong><br/>
+          Deep Reinforcement Learning Toward Robotics<br/>
+          <div class="small">Deep reinforcement learning (RL) has shown promising results for learning complex sequential decision-making behaviors in various environments from computer games, the game of Go, to simulated humanoids. However, most successes have been exclusively in simulation, and results in real-world applications such as robotics are limited, largely due to poor sample efficiency of typical deep RL algorithm and other challenges. In this talk, I present essential components for deep reinforcement learning in the wild. First, I will discuss methods improve performance and sample efficiency of the core RL algorithms, blurring the boundaries among classic model-based RL, off-policy and on-policy model-free RL. In the latter part, I illustrate other practical challenges for enabling autonomous learning agents in the real world, particularly that current RL formulations require constant human interventions for safety, resets, and reward engineering, and do not scale to learn diverse skills. I present our recent work to address those challenges and show pathways to achieve continually learning robots in the real world.</div></td>
+        </tr>
+        <tr>
+          <td valign="top">11:00-11:20</td>
+          <td>Paper talk 2</td>
+        </tr>
+        <tr>
+          <td valign="top">11:20-12:00</td>
+          <td>Invited talk by <strong>Minlie Huang</strong><br/>
+          Reinforcement Learning in Natural Language Processing and Search<br/>
+          <div class="small">Deep reinforcement learning has received much attention since the success of Alpha GO/Zero. In this talk, the speaker will present his research attempts on how deep reinforcement learning can be applied in solving natural language processing or search problems including discovering text structures, removing noise instances, correcting noisy data labels, and optimizing online, complex, and dynamic search systems. In these works, the speaker will demonstrate how typical NLP/Search problems can be formulated as sequential decision problems. These works share in common that under the setting of weak or indirect supervision, reinforcement learning performs well by leveraging two properties: the nature of trial-and-error with probabilistic exploration, and reward design that captures prior knowledge or domain expertise knowledge. The speaker will also share his experiences on how to make RL succeed in solving NLP/Search problems.</div></td>
+        </tr>
+        <tr>
+          <td bgcolor="#CCCCCC"><p>Lunch</p></td>
+          <td bgcolor="#CCCCCC">&nbsp;</td>
+        </tr>
+        <tr>
+          <td valign="top">13:00-13:40</td>
+          <td>Invited talk by <strong>Gergely Neu</strong>
+          A unified view of entropy-regularized Markov decision processes<br/>
+          <div class="small">Entropy regularization, while a standard technique in the online
+learning toolbox, has only been recently discovered by the
+reinforcement learning community: In recent years, numerous new
+reinforcement learning algorithms have been derived using this
+principle, largely independently of each other. So far, a general
+framework for these algorithms has remained elusive. In this work, we
+propose such a general framework for entropy-regularized
+average-reward reinforcement learning in Markov decision processes
+(MDPs). Our approach is based on extending the linear-programming
+formulation of policy optimization in MDPs to accommodate convex
+regularization functions. Our key result is showing that using the
+conditional entropy of the joint state-action distributions as
+regularization yields a dual optimization problem closely resembling
+the Bellman optimality equations. This result enables us to formalize
+a number of state-of-the-art entropy-regularized reinforcement
+learning algorithms as approximate variants of Mirror Descent or Dual
+Averaging, and thus to argue about the convergence properties of these
+methods. In particular, we show that the exact version of the TRPO
+algorithm of Schulman et al. (2015) actually converges to the optimal
+policy, while the entropy-regularized policy gradient methods of Mnih
+et al. (2016) may fail to converge to a fixed point.</div></td>
+        </tr>
+        <tr>
+          <td valign="top">13:40-14:00</td>
+          <td>Paper talk 3</td>
+        </tr>
+        <tr>
+          <td valign="top">14:00-14:40</td>
+          <td>Invited talk by <strong>Matteo Pirotta</strong>
+          Exploration Bonus for Regret Minimization in Reinforcement Learning<br/>
+          <div class="small">A sample-efficient RL agent must trade off the exploration needed to collect information about the environment, and the exploitation of the experience gathered so far to gain as much reward as possible. A popular strategy to deal with the exploration-exploitation dilemma (i.e., minimize regret) is to follow the optimism in the face of uncertainty (OFU) principle.<br>
+We present SCAL+, an optimistic algorithm that relies on an exploration bonus to efficiently balance exploration and exploitation in the infinite-horizon undiscounted setting. We show that all the exploration bonuses that were previously introduced in the RL literature explicitly exploit some form of prior knowledge associated to the specific setting (i.e., discounted of finite-horizon problems). In the infinite-horizon undiscounted case, there is no predefined parameter playing such a role. This makes the design of an exploration bonus very challenging. To overcome this limitation, we make the common assumption that the agent knows an upper-bound c on the span of the optimal bias.<br>
+We discuss the connections between the different settings and we prove that SCAL+ achieves the same theoretical guarantees of standard approaches (e.g., UCRL), with a much smaller computational complexity.</div></td>
+        </tr>
+        <tr>
+          <td valign="top">14:40-15:00</td>
+          <td>Paper talk 4</td>
+        </tr>
+      </table>
+      <h3><a name="organize"></a>Organization Committee</h3>
+      <p><a href="http://weng.fr/" target="_blank">Paul Weng</a>, University of Michigan-Shanghai Jiao Tong University Joint Institute, China<br>
+        <a href="http://cs.nju.edu.cn/yuy/" target="_blank">Yang Yu</a> Nanjing University, China <br>
+        <a href="http://www.escience.cn/people/zzzhang/" target="_blank">Zongzhang Zhang</a>, Soochow University, China<br>
+        <a href="https://www.microsoft.com/en-us/research/people/lizo/" target="_blank">Li Zhao</a>, Microsoft Research Asia, China</p>
+      <h3><a name="sponsor"></a>Sponsors</h3>
+      <p ><img src="http://lamda.nju.edu.cn/logo/Normal%20(179x85)/normal.png" width="100"><br>
+        LAMDA Group, National Key Laboratory for Novel Software Technology, Nanjing University </td>
+  </tr>
+</table>
+</body>
+</html>
+</body>
 </html>
