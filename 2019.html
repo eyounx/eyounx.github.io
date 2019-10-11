@@ -50,9 +50,15 @@ a {
 <p>The Asian Workshop on Reinforcement Learning (AWRL) focuses on both theoretical foundations, models, algorithms, and practical applications. We intend to make this an exciting event for researchers and practitioners in RL worldwide as a forum for the discussion of open problems, future research directions and application domains of RL. </p>
       <p>AWRL 2019 (in conjunction with <a href="http://www.adai.ai" target="_blank">DAI 2019</a>) will consist of academic and industrial keynote talks, and invited paper presentations, over a one-day period.</p>
       <h3><a name="invited"></a>Invited Speakers (sorted in alphabetical order)</h3>
+      <strong>Yingfeng Chen</strong>, NetEase Fuxi AI Lab<br>
+      <div class="small">Dr. Yingfeng Chen is a researcher in NetEase Fuxi AI Lab. His research interests include reinforcement learning and game AI. He received his doctor's degree in Computer Science from University of Science and Technology of China. At present, he is working on landing RL algorithms on Game AI and solving the critical technical problems.</div>
       <strong>Junqi Jin</strong>, Alibaba Group<br/>
       <div class="small">Dr. Junqi Jin is from Precision Orientation Technology Department at Alibaba Group, where his main research interests lie in machine learning, mechanism design applied to online advertising and recommendation. Junqi holds a PhD (2016), a Bachelor of Engineering (2011) and a Bachelor of Economics (2011) from Tsinghua University. Junqi has published research papers in IEEE TPAMI, TITS, TNNLS, KDD and CIKM.
       </div>
+      <strong>Wulong Liu</strong>, Huawei Noah's Ark Lab<br>
+      <div class="small">Wulong Liu is a stuff researcher and reinforcement learning tech lead of the Decision Making and Reasoning Lab, Huawei Noah's Ark Lab. Before joined Huawei, he received his Ph.D. degree in electronic engineering from Tsinghua University in 2015 and received his Bachelor degree in Microelectronics from Xidian University in 2010. He was also a visiting scholar in C.S.E Department of Penn State University from 2013 to 2014. His research interests mainly includes deep learning, reinforcement learning, distributed computing, and optimization. His recent research aims at applying reinforcement learning in autonomous driving.</div>
+      <strong>Peng Sun</strong>, Tencent AI Lab<br>
+      <div class="small">Peng Sun got his BS, MS, and PhD from Wuhan University of Technology, Beijing University of Posts and Telecommunication and Tsinghua University, respectively.  He then did Postdoc research with Cornell University and Rutgers University. He is now a senior researcher with Tencent AI Lab. His current interests include Deep Reinforcement Learning and its application in Video Game AI and Robotics.</div>
       <strong>Paul Weng</strong>, UM-SJTU Joint Institute<br>
       <div class="small">Paul Weng is currently a tenure-track assistant professor at UM-SJTU Joint Institute. Previously, he was a faculty at SYSU-CMU Joint Institute of Engineering from 2015 to 2017. During 2015, he was a visiting faculty at Carnegie Mellon University (CMU). Before that, he was an associate professor in computer science at Sorbonne University (Pierre and Marie Curie University, UPMC), Paris. He received his Master in 2003 and his Ph.D. in 2006, both at UPMC. Before joining academia, he graduated from ENSAI (French National School in Statistics and Information Analysis) and worked as a financial quantitative analyst in London. His main research work lies in artificial intelligence and machine learning. Notably, it focuses on adaptive control (reinforcement learning, Markov decision process) and multiobjective optimization (compromise programming, fair optimization).
       </div>
@@ -67,113 +73,90 @@ a {
       </div>
       
       <h3><a name="program"></a>Program      </h3>
-      <!--------
       <table width="100%" border="0" cellspacing="10px" cellpadding="0">
         <tr>
-          <td width="120px" valign="top" bgcolor="#CCCCCC">8:50-9:00</td>
+          <td width="120px" valign="top" bgcolor="#CCCCCC">8:40</td>
           <td bgcolor="#CCCCCC">Opening</td>
         </tr>
         <tr>
-          <td valign="top">9:00-9:40</td>
-          <td>Invited talk 1 by <strong>Lucian Busoniu</strong><br>
-          <a href="2018/awrl18_handout.pdf" target="_blank">Forward-search optimistic planning with convergence guarantees in continuous-action MDPs</a><br/>
-          <div class="small">We discuss an optimistic planning method to run a forward search for continuous-action sequences in deterministic MDPs. The method iteratively refines the most promising adaptive-horizon hyperboxes in the space of infinite-horizon action sequences. Under Lipschitz conditions on the dynamics and rewards, we obtain a convergence rate to the optimal solution as the simulation budget increases. Real-time, receding-horizon control results illustrate the method in practice.</div>
+          <td valign="top">8:40-9:20</td>
+          <td>Invited talk 1 by <strong>Paul Weng</strong><br>
+          Exploiting the Sign of the Advantage Function to Learn Deterministic Policies in Continuous Domains<br/>
+          <div class="small">In the context of learning deterministic policies in continuous domains, we revisit an approach, which was first proposed in Continuous Actor Critic Learning Automaton (CACLA) and later extended in Neural Fitted Actor Critic (NFAC). This approach is based on a policy update different from that of deterministic policy gradient (DPG). Previous work has observed its excellent performance empirically, but a theoretical justification is lacking. To fill this gap, we provide a theoretical explanation to motivate this unorthodox policy update by relating it to another update and making explicit the objective function of the latter. We furthermore discuss in depth the properties of these updates to get a deeper understanding of the overall approach. In addition, we extend it and propose a new trust region algorithm, Penalized NFAC (PeNFAC). Finally, we experimentally demonstrate in several classic control problems that it surpasses the state-of-the-art algorithms to learn deterministic policies.</div>
           </td>
         </tr>
         <tr>
-          <td valign="top">9:40-10:00</td>
-		<td>Paper talk 1 by <strong>Guangxiang Zhu</strong><br/>
-			Object-Oriented Dynamics Predictor
-		</td>
+          <td valign="top">9:20-10:00</td>
+		      <td>Invited talk 2 by <strong>Li Zhao</strong><br/>
+          Fully Parameterized Quantile Function for Distributional Reinforcement Learning <br/>
+          <div class="small"> Distributional Reinforcement Learning (RL) differs from traditional RL in that, rather than the expectation of total returns, it estimates distributions and has achieved state-of-the-art performance on Atari Games. The key challenge in practical distributional RL algorithms lies in how to parameterize estimated distributions so as to better approximate the true continuous distribution. Existing distributional RL algorithms parameterize either the probability side or the return value side of the distribution, leaving the other side uniformly ﬁxed as in C51, QR-DQN or randomly sampled as in IQN. In this paper, we propose fully parameterized quantile function that parameterizes both the probability side and the value side for distributional RL. Our algorithm contains a probability proposal network that generates a discrete set of probabilities and a quantile network that gives corresponding quantile values. The two networks are jointly trained to better approximate the true distribution. Experiments on 55 Atari Games show that our algorithm signiﬁcantly outperforms existing distributional RL algorithms and creates a new record for the Atari Learning Environment</div>
+		      </td>
         </tr>
+      
         <tr>
-          <td valign="top" bgcolor="#CCCCCC">10:00-10:20</td>
+          <td valign="top" bgcolor="#CCCCCC">10:00-10:30</td>
           <td bgcolor="#CCCCCC">Coffee break</td>
         </tr>
         <tr>
-          <td valign="top">10:20-11:00</td>
-          <td>Invited talk 2 by <strong>Shane Shixiang  Gu</strong><br/>
-          <a href="2018/ShixiangGu.pdf" target="_blank">Deep Reinforcement Learning Toward Robotics</a><br/>
-          <div class="small">Deep reinforcement learning (RL) has shown promising results for learning complex sequential decision-making behaviors in various environments from computer games, the game of Go, to simulated humanoids. However, most successes have been exclusively in simulation, and results in real-world applications such as robotics are limited, largely due to poor sample efficiency of typical deep RL algorithm and other challenges. In this talk, I present essential components for deep reinforcement learning in the wild. First, I will discuss methods improve performance and sample efficiency of the core RL algorithms, blurring the boundaries among classic model-based RL, off-policy and on-policy model-free RL. In the latter part, I illustrate other practical challenges for enabling autonomous learning agents in the real world, particularly that current RL formulations require constant human interventions for safety, resets, and reward engineering, and do not scale to learn diverse skills. I present our recent work to address those challenges and show pathways to achieve continually learning robots in the real world.</div></td>
+          <td valign="top">10:30-11:10</td>
+		      <td>Invited talk 3 by <strong>Weinan Zhang</strong><br/>
+          Towards Efficient Many-Agent Reinforcement Learning: Algorithms and Platforms <br/>
+          <div class="small"> Multi-agent reinforcement learning (MARL) is obtaining more and more attention from both academia and industry. In this talk, I will briefly introduce stochastic games and some fundamental multi-agent reinforcement learning algorithms. Then I will focus on the scenarios with a huge number of agents, where the traditional methods will probably fail to work, and introduce two preliminary solutions, namely mean-field MARL and factorized Q-learning. Finally, I will present serveral advanced open-source MARL platforms for the research of MARL, including MAgent and CityFlow, and some experimental results and key findings on them.</div>
+		      </td>
         </tr>
         <tr>
-          <td valign="top">11:00-11:20</td>
-		<td>Paper talk 2 by <strong>Yue Wang</strong><br/>
-		Finite Sample Analysis of the GTD Policy Evaluation Algorithms in Markov Setting</td>
+          <td valign="top">11:10-11:50</td>
+		      <td>Invited talk 4 by <strong>Junqi Jin</strong><br/>
+          Learning to Advertise for Joint Optimization with Recommendation in E-Commerce Platform <br/>
+          <div class="small"> As one of the world's largest e-commerce platform, Taobao's online advertising and recommendation serve hundreds of millions of consumers of retail market (BABA June Quarter 2019 Results). In product feeds, blended advertisements and recommendations are presented to consumers simultaneously and have close relationship and interaction in both front-end display and back-end shared dependent data. Traditional e-commerce platform optimizes advertising and recommendation independently and the neglect of their interplay usually leads to sub-optimality. To tackle this problem, we propose advertising strategies for joint optimization in two aspects. First, traditional ads and recommendations at fixed positions with fixed numbers in front-end display weaken the flexibility of product feeds. In this talk, we share our advertising optimization method to dynamically determine the number and positions of ads for each consumer visit. Second, consumers’ behaviors on the advertised results constitute part of the recommendation model's back-end training data and therefore can influence the recommended results. Considering this mechanism, we propose a novel perspective that advertisers can strategically control the advertising platform to optimize their recommended organic traffic. In both aspects, we introduce our algorithm designs and corresponding optimization techniques to improve learning speed and stability. Offline evaluations and online deployment results in real-world industrial environment demonstrate the effectiveness of our approaches.</div>
+		      </td>
         </tr>
         <tr>
-          <td valign="top">11:20-12:00</td>
-          <td>Invited talk 3 by <strong>Minlie Huang</strong><br/>
-          <a href="2018/reinforcement%20learning-in-NLP-Huangminlie-%40AML-RLworkshop-long.pdf" target="_blank">Reinforcement Learning in Natural Language Processing and Search</a><br/>
-          <div class="small">Deep reinforcement learning has received much attention since the success of Alpha GO/Zero. In this talk, the speaker will present his research attempts on how deep reinforcement learning can be applied in solving natural language processing or search problems including discovering text structures, removing noise instances, correcting noisy data labels, and optimizing online, complex, and dynamic search systems. In these works, the speaker will demonstrate how typical NLP/Search problems can be formulated as sequential decision problems. These works share in common that under the setting of weak or indirect supervision, reinforcement learning performs well by leveraging two properties: the nature of trial-and-error with probabilistic exploration, and reward design that captures prior knowledge or domain expertise knowledge. The speaker will also share his experiences on how to make RL succeed in solving NLP/Search problems.</div></td>
+          <td valign="top">11:50-12:30</td>
+          <td>Invited talk 5 by <strong>Peng Sun</strong><br/>
+          RL Research at Tencent AI Lab and RoboticsX with Applications in Video Game AI and Robotics<br/>
+          <div class="small">In this talk we'll discuss the RL research at Tencent AI Lab and RoboticsX, including imitation learning, multi-agent control, distributed RL training, game-theoretic RL, virtual-to-real transfer learning, etc. We'll also cover their applications in video game AI (Honor of Kings, StarCraftII) and robotics (active tracking, robotic arm).</div></td>
         </tr>
         <tr>
-          <td bgcolor="#CCCCCC"><p>Lunch</p></td>
-          <td bgcolor="#CCCCCC">&nbsp;</td>
-        </tr>
-        <tr>
-          <td valign="top">13:00-13:40</td>
-          <td>Invited talk 4 by <strong>Gergely Neu</strong><br/>
-          <a href="2018/GergelyNeu.pdf" target="_blank">A unified view of entropy-regularized Markov decision processes</a><br/>
-          <div class="small">Entropy regularization, while a standard technique in the online
-learning toolbox, has only been recently discovered by the
-reinforcement learning community: In recent years, numerous new
-reinforcement learning algorithms have been derived using this
-principle, largely independently of each other. So far, a general
-framework for these algorithms has remained elusive. In this work, we
-propose such a general framework for entropy-regularized
-average-reward reinforcement learning in Markov decision processes
-(MDPs). Our approach is based on extending the linear-programming
-formulation of policy optimization in MDPs to accommodate convex
-regularization functions. Our key result is showing that using the
-conditional entropy of the joint state-action distributions as
-regularization yields a dual optimization problem closely resembling
-the Bellman optimality equations. This result enables us to formalize
-a number of state-of-the-art entropy-regularized reinforcement
-learning algorithms as approximate variants of Mirror Descent or Dual
-Averaging, and thus to argue about the convergence properties of these
-methods. In particular, we show that the exact version of the TRPO
-algorithm of Schulman et al. (2015) actually converges to the optimal
-policy, while the entropy-regularized policy gradient methods of Mnih
-et al. (2016) may fail to converge to a fixed point.</div></td>
-        </tr>
-        <tr>
-          <td valign="top">13:40-14:00</td>
-		<td>Paper talk 3 by <strong>Yan Zheng</strong><br/>
-		A Deep Bayesian Policy Reuse Approach Against Non-Stationary Agents</td>
+            <td valign="top" bgcolor="#CCCCCC">12:30-14:00</td>
+          <td bgcolor="#CCCCCC">Lunch</td>
         </tr>
         <tr>
           <td valign="top">14:00-14:40</td>
-          <td>Invited talk 5 by <strong>Matteo Pirotta</strong><br/>
-          <a href="2018/Matteo.pdf" target="_blank">Exploration Bonus for Regret Minimization in Reinforcement Learning</a><br/>
-          <div class="small">A sample-efficient RL agent must trade off the exploration needed to collect information about the environment, and the exploitation of the experience gathered so far to gain as much reward as possible. A popular strategy to deal with the exploration-exploitation dilemma (i.e., minimize regret) is to follow the optimism in the face of uncertainty (OFU) principle.<br>
-We present SCAL+, an optimistic algorithm that relies on an exploration bonus to efficiently balance exploration and exploitation in the infinite-horizon undiscounted setting. We show that all the exploration bonuses that were previously introduced in the RL literature explicitly exploit some form of prior knowledge associated to the specific setting (i.e., discounted of finite-horizon problems). In the infinite-horizon undiscounted case, there is no predefined parameter playing such a role. This makes the design of an exploration bonus very challenging. To overcome this limitation, we make the common assumption that the agent knows an upper-bound c on the span of the optimal bias.<br>
-We discuss the connections between the different settings and we prove that SCAL+ achieves the same theoretical guarantees of standard approaches (e.g., UCRL), with a much smaller computational complexity.</div></td>
+          <td>Invited talk 6 by <strong>Wulong Liu</strong><br/>
+          Reinforcement Learning: From Virtual Games to Self-driving Cars<br/>
+          <div class="small">Autonomous driving will be revolutionary by saving millions of lives every year from traffic accidents, which will also lead to a multi-trillion dollar industry. But there are still lots of technical challenges before making this all possible. Among that, we think reinforcement learning provides a potential way to make more intelligent driving policy like our human driver. This talk will try to introduce the current status of autonomous driving and based on some previous work to illustrate the remaining challenges to apply reinforcement learning into autonomous driving tasks.</div></td>
         </tr>
         <tr>
-          <td valign="top">14:40-15:00</td>
-		<td>Paper talk 4 by <strong>Hideaki Kano</strong><br/>
-		Good Arm Identification via Bandit Feedback</td>
+          <td valign="top" bgcolor="#CCCCCC">14:40-15:30</td>
+          <td bgcolor="#CCCCCC">Coffee break</td>
         </tr>
         <tr>
-          <td valign="top">15:00-15:20</td>
-		<td>Paper talk 5 by <strong>Siyuan Li</strong><br/>
-		  An Optimal Online Method of Selecting Source Policies for Reinforcement Learning
-	  </td>
-        </tr>
+            <td valign="top">15:30-16:10</td>
+            <td>Invited talk 7 by <strong>Yingfeng Chen</strong><br/>
+            Landing Reinforcement Learning on Games Field<br/>
+            <div class="small">Recently, reinforcement learning has shown its great potential and progress rapidly in many areas. In this report, we focus on the RL application in game field, specifically, creating better game AI and making intelligent game testing. The solutions and some research results of our attempts on several commercial Netease games will be presented, including hands-on project experience, generating different style (or difficult level) game AI, class balancing and so on. Meanwhile, the problems and challenges of our exploratory trial will be also discussed. Besides, we will make a brief introduction of our developing Game AI Design Toolkit, which makes it possible for nontechnical game AI designer to take advantage of the RL technique in game filed. </div></td>
+          </tr>
         <tr>
-          <td valign="top" bgcolor="#CCCCCC">15:20-15:30</td>
+        <tr>
+            <td valign="top">16:10-16:50</td>
+            <td>Invited talk 8 by <strong>Chongjie Zhang</strong><br/>
+            Towards Efficient Reinforcement Learning<br/>
+            <div class="small">Deep reinforcement learning (DRL) has recently shown considerable successes of achieving human-level control or decision making in a series of artificial domains. However, DRL is not efficient yet for many real-world problems, requiring vast experiences to learn effective policies. To address this challenge, in this talk I will first present model-free policy reuse approaches that transfer source policies to new tasks with theoretical optimality guarantees, and then also discuss object-oriented model-based approaches for enabling DRL generalization over unseen environments. </div></td>
+          </tr>
+        <tr>
+          <td valign="top" bgcolor="#CCCCCC">16:50</td>
           <td bgcolor="#CCCCCC">Close</td>
         </tr>
       </table>
-      --------!>
+
       
       <h3><a name="organize"></a>Organization Committee</h3>
       <p>Chao Yu,  Dalian University of Technology, China<br>
         Jianye Hao, Tianjing University, China<br>
         Yang Yu, Nanjing University, China </p>
       <h3><a name="sponsor"></a>Sponsors</h3>
-      <p ><img src="http://lamda.nju.edu.cn/logo/Normal%20(179x85)/normal.png" width="100"><br>
+      <p ><img src="https://github.com/eyounx/eyounx.github.io/blob/master/2019/normal.png" width="100"><br>
         LAMDA Group, National Key Laboratory for Novel Software Technology, Nanjing University </td>
   </tr>
 </table>
